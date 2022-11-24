@@ -1,4 +1,11 @@
 server:
+  port: 8081
   servlet:
     encoding:
       force-response: true
+      chartset: UTF-8
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
